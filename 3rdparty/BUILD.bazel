@@ -1,0 +1,16 @@
+load("@rules_rust//crate_universe:defs.bzl", "crate", "crates_vendor")
+
+crates_vendor(
+    name = "crates_vendor",
+    cargo_lockfile = "//3rdparty:Cargo.Bazel.lock",
+    mode = "remote",
+    packages = {
+        # "rustix": crate.spec(
+        #     version = "0.35.11",
+        # ),
+        "wgpu": crate.spec(
+            version = "0.14.0",
+        ),
+    },
+    vendor_path = "crates",
+)

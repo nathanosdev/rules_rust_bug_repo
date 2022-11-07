@@ -1,0 +1,2370 @@
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "ahash",
+                version: "0.7.6",
+            },
+            target: "build_script_build",
+            alias: None,
+        },
+    ],
+)
+Configuration: Some(
+    "cfg(any(target_os = \"linux\", target_os = \"android\", target_os = \"windows\", target_os = \"macos\", target_os = \"ios\", target_os = \"freebsd\", target_os = \"openbsd\", target_os = \"netbsd\", target_os = \"dragonfly\", target_os = \"solaris\", target_os = \"illumos\", target_os = \"fuchsia\", target_os = \"redox\", target_os = \"cloudabi\", target_os = \"haiku\", target_os = \"vxworks\", target_os = \"emscripten\", target_os = \"wasi\"))",
+)
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "getrandom",
+                version: "0.2.8",
+            },
+            target: "getrandom",
+            alias: None,
+        },
+    ],
+)
+Configuration: Some(
+    "cfg(not(all(target_arch = \"arm\", target_os = \"none\")))",
+)
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "once_cell",
+                version: "1.16.0",
+            },
+            target: "once_cell",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "libc",
+                version: "0.2.137",
+            },
+            target: "libc",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "ash",
+                version: "0.37.0+1.3.209",
+            },
+            target: "build_script_build",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "libloading",
+                version: "0.7.3",
+            },
+            target: "libloading",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "bit-vec",
+                version: "0.6.3",
+            },
+            target: "bit_vec",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "termcolor",
+                version: "1.1.3",
+            },
+            target: "termcolor",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "unicode-width",
+                version: "0.1.10",
+            },
+            target: "unicode_width",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "core-foundation-sys",
+                version: "0.8.3",
+            },
+            target: "core_foundation_sys",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "libc",
+                version: "0.2.137",
+            },
+            target: "libc",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "core-foundation-sys",
+                version: "0.8.3",
+            },
+            target: "build_script_build",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "bitflags",
+                version: "1.3.2",
+            },
+            target: "bitflags",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "core-foundation",
+                version: "0.9.3",
+            },
+            target: "core_foundation",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "foreign-types",
+                version: "0.3.2",
+            },
+            target: "foreign_types",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "libc",
+                version: "0.2.137",
+            },
+            target: "libc",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "bitflags",
+                version: "1.3.2",
+            },
+            target: "bitflags",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "libloading",
+                version: "0.7.3",
+            },
+            target: "libloading",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "winapi",
+                version: "0.3.9",
+            },
+            target: "winapi",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "wgpu",
+                version: "0.14.0",
+            },
+            target: "wgpu",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "foreign-types-shared",
+                version: "0.1.1",
+            },
+            target: "foreign_types_shared",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "byteorder",
+                version: "1.4.3",
+            },
+            target: "byteorder",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "cfg-if",
+                version: "1.0.0",
+            },
+            target: "cfg_if",
+            alias: None,
+        },
+    ],
+)
+Configuration: Some(
+    "cfg(target_os = \"wasi\")",
+)
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "wasi",
+                version: "0.11.0+wasi-snapshot-preview1",
+            },
+            target: "wasi",
+            alias: None,
+        },
+    ],
+)
+Configuration: Some(
+    "cfg(unix)",
+)
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "libc",
+                version: "0.2.137",
+            },
+            target: "libc",
+            alias: None,
+        },
+    ],
+)
+Configuration: Some(
+    "cfg(target_arch = \"wasm32\")",
+)
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "js-sys",
+                version: "0.3.60",
+            },
+            target: "js_sys",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "slotmap",
+                version: "1.0.6",
+            },
+            target: "slotmap",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "wasm-bindgen",
+                version: "0.2.83",
+            },
+            target: "wasm_bindgen",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "web-sys",
+                version: "0.3.60",
+            },
+            target: "web_sys",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "bitflags",
+                version: "1.3.2",
+            },
+            target: "bitflags",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "gpu-alloc-types",
+                version: "0.2.0",
+            },
+            target: "gpu_alloc_types",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "bitflags",
+                version: "1.3.2",
+            },
+            target: "bitflags",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "bitflags",
+                version: "1.3.2",
+            },
+            target: "bitflags",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "gpu-descriptor-types",
+                version: "0.1.1",
+            },
+            target: "gpu_descriptor_types",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "hashbrown",
+                version: "0.12.3",
+            },
+            target: "hashbrown",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "bitflags",
+                version: "1.3.2",
+            },
+            target: "bitflags",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "ahash",
+                version: "0.7.6",
+            },
+            target: "ahash",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "hashbrown",
+                version: "0.12.3",
+            },
+            target: "hashbrown",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "indexmap",
+                version: "1.9.1",
+            },
+            target: "build_script_build",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "wasm-bindgen",
+                version: "0.2.83",
+            },
+            target: "wasm_bindgen",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "khronos-egl",
+                version: "4.1.0",
+            },
+            target: "build_script_build",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "libc",
+                version: "0.2.137",
+            },
+            target: "libc",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "libloading",
+                version: "0.7.3",
+            },
+            target: "libloading",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "libc",
+                version: "0.2.137",
+            },
+            target: "build_script_build",
+            alias: None,
+        },
+    ],
+)
+Configuration: Some(
+    "cfg(unix)",
+)
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "cfg-if",
+                version: "1.0.0",
+            },
+            target: "cfg_if",
+            alias: None,
+        },
+    ],
+)
+Configuration: Some(
+    "cfg(windows)",
+)
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "winapi",
+                version: "0.3.9",
+            },
+            target: "winapi",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "lock_api",
+                version: "0.4.9",
+            },
+            target: "build_script_build",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "scopeguard",
+                version: "1.1.0",
+            },
+            target: "scopeguard",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "cfg-if",
+                version: "1.0.0",
+            },
+            target: "cfg_if",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "log",
+                version: "0.4.17",
+            },
+            target: "build_script_build",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "libc",
+                version: "0.2.137",
+            },
+            target: "libc",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "bitflags",
+                version: "1.3.2",
+            },
+            target: "bitflags",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "block",
+                version: "0.1.6",
+            },
+            target: "block",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "core-graphics-types",
+                version: "0.1.1",
+            },
+            target: "core_graphics_types",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "foreign-types",
+                version: "0.3.2",
+            },
+            target: "foreign_types",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "log",
+                version: "0.4.17",
+            },
+            target: "log",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "objc",
+                version: "0.2.7",
+            },
+            target: "objc",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "bit-set",
+                version: "0.5.3",
+            },
+            target: "bit_set",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "bitflags",
+                version: "1.3.2",
+            },
+            target: "bitflags",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "codespan-reporting",
+                version: "0.11.1",
+            },
+            target: "codespan_reporting",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "hexf-parse",
+                version: "0.2.1",
+            },
+            target: "hexf_parse",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "indexmap",
+                version: "1.9.1",
+            },
+            target: "indexmap",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "log",
+                version: "0.4.17",
+            },
+            target: "log",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "num-traits",
+                version: "0.2.15",
+            },
+            target: "num_traits",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "rustc-hash",
+                version: "1.1.0",
+            },
+            target: "rustc_hash",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "spirv",
+                version: "0.2.0+1.5.4",
+            },
+            target: "spirv",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "termcolor",
+                version: "1.1.3",
+            },
+            target: "termcolor",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "thiserror",
+                version: "1.0.37",
+            },
+            target: "thiserror",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "unicode-xid",
+                version: "0.2.4",
+            },
+            target: "unicode_xid",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "num-traits",
+                version: "0.2.15",
+            },
+            target: "build_script_build",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "malloc_buf",
+                version: "0.0.6",
+            },
+            target: "malloc_buf",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "objc_exception",
+                version: "0.1.2",
+            },
+            target: "objc_exception",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "objc_exception",
+                version: "0.1.2",
+            },
+            target: "build_script_build",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "lock_api",
+                version: "0.4.9",
+            },
+            target: "lock_api",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "parking_lot_core",
+                version: "0.9.4",
+            },
+            target: "parking_lot_core",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "cfg-if",
+                version: "1.0.0",
+            },
+            target: "cfg_if",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "parking_lot_core",
+                version: "0.9.4",
+            },
+            target: "build_script_build",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "smallvec",
+                version: "1.10.0",
+            },
+            target: "smallvec",
+            alias: None,
+        },
+    ],
+)
+Configuration: Some(
+    "cfg(target_os = \"redox\")",
+)
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "redox_syscall",
+                version: "0.2.16",
+            },
+            target: "syscall",
+            alias: None,
+        },
+    ],
+)
+Configuration: Some(
+    "cfg(unix)",
+)
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "libc",
+                version: "0.2.137",
+            },
+            target: "libc",
+            alias: None,
+        },
+    ],
+)
+Configuration: Some(
+    "cfg(windows)",
+)
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "windows-sys",
+                version: "0.42.0",
+            },
+            target: "windows_sys",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "proc-macro2",
+                version: "1.0.47",
+            },
+            target: "build_script_build",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "unicode-ident",
+                version: "1.0.5",
+            },
+            target: "unicode_ident",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "proc-macro2",
+                version: "1.0.47",
+            },
+            target: "proc_macro2",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "quote",
+                version: "1.0.21",
+            },
+            target: "build_script_build",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "cty",
+                version: "0.2.2",
+            },
+            target: "cty",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "bitflags",
+                version: "1.3.2",
+            },
+            target: "bitflags",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "slotmap",
+                version: "1.0.6",
+            },
+            target: "build_script_build",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "bitflags",
+                version: "1.3.2",
+            },
+            target: "bitflags",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "num-traits",
+                version: "0.2.15",
+            },
+            target: "num_traits",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "proc-macro2",
+                version: "1.0.47",
+            },
+            target: "proc_macro2",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "quote",
+                version: "1.0.21",
+            },
+            target: "quote",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "syn",
+                version: "1.0.103",
+            },
+            target: "build_script_build",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "unicode-ident",
+                version: "1.0.5",
+            },
+            target: "unicode_ident",
+            alias: None,
+        },
+    ],
+)
+Configuration: Some(
+    "cfg(windows)",
+)
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "winapi-util",
+                version: "0.1.5",
+            },
+            target: "winapi_util",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "thiserror",
+                version: "1.0.37",
+            },
+            target: "build_script_build",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "proc-macro2",
+                version: "1.0.47",
+            },
+            target: "proc_macro2",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "quote",
+                version: "1.0.21",
+            },
+            target: "quote",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "syn",
+                version: "1.0.103",
+            },
+            target: "syn",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "cfg-if",
+                version: "1.0.0",
+            },
+            target: "cfg_if",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "wasm-bindgen",
+                version: "0.2.83",
+            },
+            target: "build_script_build",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "bumpalo",
+                version: "3.11.1",
+            },
+            target: "bumpalo",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "log",
+                version: "0.4.17",
+            },
+            target: "log",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "once_cell",
+                version: "1.16.0",
+            },
+            target: "once_cell",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "proc-macro2",
+                version: "1.0.47",
+            },
+            target: "proc_macro2",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "quote",
+                version: "1.0.21",
+            },
+            target: "quote",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "syn",
+                version: "1.0.103",
+            },
+            target: "syn",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "wasm-bindgen-shared",
+                version: "0.2.83",
+            },
+            target: "wasm_bindgen_shared",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "cfg-if",
+                version: "1.0.0",
+            },
+            target: "cfg_if",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "js-sys",
+                version: "0.3.60",
+            },
+            target: "js_sys",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "wasm-bindgen",
+                version: "0.2.83",
+            },
+            target: "wasm_bindgen",
+            alias: None,
+        },
+    ],
+)
+Configuration: Some(
+    "cfg(target_feature = \"atomics\")",
+)
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "web-sys",
+                version: "0.3.60",
+            },
+            target: "web_sys",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "quote",
+                version: "1.0.21",
+            },
+            target: "quote",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "wasm-bindgen-macro-support",
+                version: "0.2.83",
+            },
+            target: "wasm_bindgen_macro_support",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "proc-macro2",
+                version: "1.0.47",
+            },
+            target: "proc_macro2",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "quote",
+                version: "1.0.21",
+            },
+            target: "quote",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "syn",
+                version: "1.0.103",
+            },
+            target: "syn",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "wasm-bindgen-backend",
+                version: "0.2.83",
+            },
+            target: "wasm_bindgen_backend",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "wasm-bindgen-shared",
+                version: "0.2.83",
+            },
+            target: "wasm_bindgen_shared",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "wasm-bindgen-shared",
+                version: "0.2.83",
+            },
+            target: "build_script_build",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "js-sys",
+                version: "0.3.60",
+            },
+            target: "js_sys",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "wasm-bindgen",
+                version: "0.2.83",
+            },
+            target: "wasm_bindgen",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "arrayvec",
+                version: "0.7.2",
+            },
+            target: "arrayvec",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "log",
+                version: "0.4.17",
+            },
+            target: "log",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "parking_lot",
+                version: "0.12.1",
+            },
+            target: "parking_lot",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "raw-window-handle",
+                version: "0.5.0",
+            },
+            target: "raw_window_handle",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "smallvec",
+                version: "1.10.0",
+            },
+            target: "smallvec",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "static_assertions",
+                version: "1.1.0",
+            },
+            target: "static_assertions",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "wgpu-types",
+                version: "0.14.0",
+            },
+            target: "wgpu_types",
+            alias: Some(
+                "wgt",
+            ),
+        },
+    ],
+)
+Configuration: Some(
+    "cfg(any(not(target_arch = \"wasm32\"), target_os = \"emscripten\"))",
+)
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "wgpu-hal",
+                version: "0.14.0",
+            },
+            target: "wgpu_hal",
+            alias: Some(
+                "hal",
+            ),
+        },
+    ],
+)
+Configuration: Some(
+    "cfg(not(target_arch = \"wasm32\"))",
+)
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "wgpu-core",
+                version: "0.14.0",
+            },
+            target: "wgpu_core",
+            alias: Some(
+                "wgc",
+            ),
+        },
+    ],
+)
+Configuration: Some(
+    "cfg(target_arch = \"wasm32\")",
+)
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "js-sys",
+                version: "0.3.60",
+            },
+            target: "js_sys",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "naga",
+                version: "0.10.0",
+            },
+            target: "naga",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "parking_lot",
+                version: "0.12.1",
+            },
+            target: "parking_lot",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "wasm-bindgen",
+                version: "0.2.83",
+            },
+            target: "wasm_bindgen",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "wasm-bindgen-futures",
+                version: "0.4.33",
+            },
+            target: "wasm_bindgen_futures",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "web-sys",
+                version: "0.3.60",
+            },
+            target: "web_sys",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "arrayvec",
+                version: "0.7.2",
+            },
+            target: "arrayvec",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "bit-vec",
+                version: "0.6.3",
+            },
+            target: "bit_vec",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "bitflags",
+                version: "1.3.2",
+            },
+            target: "bitflags",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "codespan-reporting",
+                version: "0.11.1",
+            },
+            target: "codespan_reporting",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "fxhash",
+                version: "0.2.1",
+            },
+            target: "fxhash",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "log",
+                version: "0.4.17",
+            },
+            target: "log",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "naga",
+                version: "0.10.0",
+            },
+            target: "naga",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "parking_lot",
+                version: "0.12.1",
+            },
+            target: "parking_lot",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "profiling",
+                version: "1.0.7",
+            },
+            target: "profiling",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "raw-window-handle",
+                version: "0.5.0",
+            },
+            target: "raw_window_handle",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "smallvec",
+                version: "1.10.0",
+            },
+            target: "smallvec",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "thiserror",
+                version: "1.0.37",
+            },
+            target: "thiserror",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "wgpu-core",
+                version: "0.14.0",
+            },
+            target: "build_script_build",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "wgpu-hal",
+                version: "0.14.0",
+            },
+            target: "wgpu_hal",
+            alias: Some(
+                "hal",
+            ),
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "wgpu-types",
+                version: "0.14.0",
+            },
+            target: "wgpu_types",
+            alias: Some(
+                "wgt",
+            ),
+        },
+    ],
+)
+Configuration: Some(
+    "cfg(all(not(target_arch = \"wasm32\"), any(target_os = \"ios\", target_os = \"macos\")))",
+)
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "wgpu-hal",
+                version: "0.14.0",
+            },
+            target: "wgpu_hal",
+            alias: Some(
+                "hal",
+            ),
+        },
+    ],
+)
+Configuration: Some(
+    "cfg(all(not(target_arch = \"wasm32\"), unix, not(target_os = \"ios\"), not(target_os = \"macos\")))",
+)
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "wgpu-hal",
+                version: "0.14.0",
+            },
+            target: "wgpu_hal",
+            alias: Some(
+                "hal",
+            ),
+        },
+    ],
+)
+Configuration: Some(
+    "cfg(all(not(target_arch = \"wasm32\"), windows))",
+)
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "wgpu-hal",
+                version: "0.14.0",
+            },
+            target: "wgpu_hal",
+            alias: Some(
+                "hal",
+            ),
+        },
+    ],
+)
+Configuration: Some(
+    "cfg(all(target_arch = \"wasm32\", not(target_os = \"emscripten\")))",
+)
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "web-sys",
+                version: "0.3.60",
+            },
+            target: "web_sys",
+            alias: None,
+        },
+    ],
+)
+Configuration: Some(
+    "cfg(target_arch = \"wasm32\")",
+)
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "wgpu-hal",
+                version: "0.14.0",
+            },
+            target: "wgpu_hal",
+            alias: Some(
+                "hal",
+            ),
+        },
+    ],
+)
+Configuration: Some(
+    "cfg(target_os = \"emscripten\")",
+)
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "wgpu-hal",
+                version: "0.14.0",
+            },
+            target: "wgpu_hal",
+            alias: Some(
+                "hal",
+            ),
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "arrayvec",
+                version: "0.7.2",
+            },
+            target: "arrayvec",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "ash",
+                version: "0.37.0+1.3.209",
+            },
+            target: "ash",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "bit-set",
+                version: "0.5.3",
+            },
+            target: "bit_set",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "bitflags",
+                version: "1.3.2",
+            },
+            target: "bitflags",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "block",
+                version: "0.1.6",
+            },
+            target: "block",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "foreign-types",
+                version: "0.3.2",
+            },
+            target: "foreign_types",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "fxhash",
+                version: "0.2.1",
+            },
+            target: "fxhash",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "glow",
+                version: "0.11.2",
+            },
+            target: "glow",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "gpu-alloc",
+                version: "0.5.3",
+            },
+            target: "gpu_alloc",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "gpu-descriptor",
+                version: "0.2.3",
+            },
+            target: "gpu_descriptor",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "log",
+                version: "0.4.17",
+            },
+            target: "log",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "naga",
+                version: "0.10.0",
+            },
+            target: "naga",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "parking_lot",
+                version: "0.12.1",
+            },
+            target: "parking_lot",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "profiling",
+                version: "1.0.7",
+            },
+            target: "profiling",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "range-alloc",
+                version: "0.1.2",
+            },
+            target: "range_alloc",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "raw-window-handle",
+                version: "0.5.0",
+            },
+            target: "raw_window_handle",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "renderdoc-sys",
+                version: "0.7.1",
+            },
+            target: "renderdoc_sys",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "smallvec",
+                version: "1.10.0",
+            },
+            target: "smallvec",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "thiserror",
+                version: "1.0.37",
+            },
+            target: "thiserror",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "wgpu-types",
+                version: "0.14.0",
+            },
+            target: "wgpu_types",
+            alias: Some(
+                "wgt",
+            ),
+        },
+    ],
+)
+Configuration: Some(
+    "cfg(all(target_arch = \"wasm32\", not(target_os = \"emscripten\")))",
+)
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "js-sys",
+                version: "0.3.60",
+            },
+            target: "js_sys",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "wasm-bindgen",
+                version: "0.2.83",
+            },
+            target: "wasm_bindgen",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "web-sys",
+                version: "0.3.60",
+            },
+            target: "web_sys",
+            alias: None,
+        },
+    ],
+)
+Configuration: Some(
+    "cfg(any(target_os = \"macos\", target_os = \"ios\"))",
+)
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "core-graphics-types",
+                version: "0.1.1",
+            },
+            target: "core_graphics_types",
+            alias: None,
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "metal",
+                version: "0.24.0",
+            },
+            target: "metal",
+            alias: Some(
+                "mtl",
+            ),
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "objc",
+                version: "0.2.7",
+            },
+            target: "objc",
+            alias: None,
+        },
+    ],
+)
+Configuration: Some(
+    "cfg(not(target_arch = \"wasm32\"))",
+)
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "khronos-egl",
+                version: "4.1.0",
+            },
+            target: "khronos_egl",
+            alias: Some(
+                "egl",
+            ),
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "libloading",
+                version: "0.7.3",
+            },
+            target: "libloading",
+            alias: None,
+        },
+    ],
+)
+Configuration: Some(
+    "cfg(target_os = \"android\")",
+)
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "android_system_properties",
+                version: "0.1.5",
+            },
+            target: "android_system_properties",
+            alias: None,
+        },
+    ],
+)
+Configuration: Some(
+    "cfg(target_os = \"emscripten\")",
+)
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "khronos-egl",
+                version: "4.1.0",
+            },
+            target: "khronos_egl",
+            alias: Some(
+                "egl",
+            ),
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "libloading",
+                version: "0.7.3",
+            },
+            target: "libloading",
+            alias: None,
+        },
+    ],
+)
+Configuration: Some(
+    "cfg(windows)",
+)
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "d3d12",
+                version: "0.5.0",
+            },
+            target: "d3d12",
+            alias: Some(
+                "native",
+            ),
+        },
+        CrateDependency {
+            id: CrateId {
+                name: "winapi",
+                version: "0.3.9",
+            },
+            target: "winapi",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "bitflags",
+                version: "1.3.2",
+            },
+            target: "bitflags",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "winapi",
+                version: "0.3.9",
+            },
+            target: "build_script_build",
+            alias: None,
+        },
+    ],
+)
+Configuration: Some(
+    "i686-pc-windows-gnu",
+)
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "winapi-i686-pc-windows-gnu",
+                version: "0.4.0",
+            },
+            target: "winapi_i686_pc_windows_gnu",
+            alias: None,
+        },
+    ],
+)
+Configuration: Some(
+    "x86_64-pc-windows-gnu",
+)
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "winapi-x86_64-pc-windows-gnu",
+                version: "0.4.0",
+            },
+            target: "winapi_x86_64_pc_windows_gnu",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "winapi-i686-pc-windows-gnu",
+                version: "0.4.0",
+            },
+            target: "build_script_build",
+            alias: None,
+        },
+    ],
+)
+Configuration: Some(
+    "cfg(windows)",
+)
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "winapi",
+                version: "0.3.9",
+            },
+            target: "winapi",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "winapi-x86_64-pc-windows-gnu",
+                version: "0.4.0",
+            },
+            target: "build_script_build",
+            alias: None,
+        },
+    ],
+)
+Configuration: Some(
+    "aarch64-pc-windows-gnullvm",
+)
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "windows_aarch64_gnullvm",
+                version: "0.42.0",
+            },
+            target: "windows_aarch64_gnullvm",
+            alias: None,
+        },
+    ],
+)
+Configuration: Some(
+    "aarch64-pc-windows-msvc",
+)
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "windows_aarch64_msvc",
+                version: "0.42.0",
+            },
+            target: "windows_aarch64_msvc",
+            alias: None,
+        },
+    ],
+)
+Configuration: Some(
+    "aarch64-uwp-windows-msvc",
+)
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "windows_aarch64_msvc",
+                version: "0.42.0",
+            },
+            target: "windows_aarch64_msvc",
+            alias: None,
+        },
+    ],
+)
+Configuration: Some(
+    "i686-pc-windows-gnu",
+)
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "windows_i686_gnu",
+                version: "0.42.0",
+            },
+            target: "windows_i686_gnu",
+            alias: None,
+        },
+    ],
+)
+Configuration: Some(
+    "i686-pc-windows-msvc",
+)
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "windows_i686_msvc",
+                version: "0.42.0",
+            },
+            target: "windows_i686_msvc",
+            alias: None,
+        },
+    ],
+)
+Configuration: Some(
+    "i686-uwp-windows-gnu",
+)
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "windows_i686_gnu",
+                version: "0.42.0",
+            },
+            target: "windows_i686_gnu",
+            alias: None,
+        },
+    ],
+)
+Configuration: Some(
+    "i686-uwp-windows-msvc",
+)
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "windows_i686_msvc",
+                version: "0.42.0",
+            },
+            target: "windows_i686_msvc",
+            alias: None,
+        },
+    ],
+)
+Configuration: Some(
+    "x86_64-pc-windows-gnu",
+)
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "windows_x86_64_gnu",
+                version: "0.42.0",
+            },
+            target: "windows_x86_64_gnu",
+            alias: None,
+        },
+    ],
+)
+Configuration: Some(
+    "x86_64-pc-windows-gnullvm",
+)
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "windows_x86_64_gnullvm",
+                version: "0.42.0",
+            },
+            target: "windows_x86_64_gnullvm",
+            alias: None,
+        },
+    ],
+)
+Configuration: Some(
+    "x86_64-pc-windows-msvc",
+)
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "windows_x86_64_msvc",
+                version: "0.42.0",
+            },
+            target: "windows_x86_64_msvc",
+            alias: None,
+        },
+    ],
+)
+Configuration: Some(
+    "x86_64-uwp-windows-gnu",
+)
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "windows_x86_64_gnu",
+                version: "0.42.0",
+            },
+            target: "windows_x86_64_gnu",
+            alias: None,
+        },
+    ],
+)
+Configuration: Some(
+    "x86_64-uwp-windows-msvc",
+)
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "windows_x86_64_msvc",
+                version: "0.42.0",
+            },
+            target: "windows_x86_64_msvc",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "windows_aarch64_gnullvm",
+                version: "0.42.0",
+            },
+            target: "build_script_build",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "windows_aarch64_msvc",
+                version: "0.42.0",
+            },
+            target: "build_script_build",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "windows_i686_gnu",
+                version: "0.42.0",
+            },
+            target: "build_script_build",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "windows_i686_msvc",
+                version: "0.42.0",
+            },
+            target: "build_script_build",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "windows_x86_64_gnu",
+                version: "0.42.0",
+            },
+            target: "build_script_build",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "windows_x86_64_gnullvm",
+                version: "0.42.0",
+            },
+            target: "build_script_build",
+            alias: None,
+        },
+    ],
+)
+Configuration: None
+Entry: Iter(
+    [
+        CrateDependency {
+            id: CrateId {
+                name: "windows_x86_64_msvc",
+                version: "0.42.0",
+            },
+            target: "build_script_build",
+            alias: None,
+        },
+    ],
+)
